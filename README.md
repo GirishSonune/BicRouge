@@ -51,16 +51,18 @@ Add the following permissions in AndroidManifest.xml:
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 ## Folder Structure
 Here’s an overview of the project structure:
-    bicrouge/
-    ├── android/                 # Android native code
-    ├── assets/                  # Images and assets
-    ├── ios/                     # iOS native code
-    ├── lib/                     # Flutter application code
-    │   ├── main.dart            # Main entry point of the app
-    │   ├── pages/               # App screens (e.g., scanning page, document list)
-    │   ├── widgets/             # Reusable widgets
-    │   ├── utils/               # Utility functions and helpers
-    └── pubspec.yaml             # Project configuration and dependencies
+
+bicrouge/
+├── android/                 # Android native code. <br />
+├── assets/                  # Images and assets <br />
+├── ios/                     # iOS native code <br />
+├── lib/                     # Flutter application code <br />
+│   ├── main.dart            # Main entry point of the app <br />
+│   ├── pages/               # App screens (e.g., scanning page, document list) <br />
+│   ├── widgets/             # Reusable widgets <br />
+│   ├── utils/               # Utility functions and helpers <br />
+└── pubspec.yaml             # Project configuration and dependencies <br />
+
     
 ## Screenshots
 Home Screen	Scanning Screen	Document List
